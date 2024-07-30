@@ -25,5 +25,5 @@ Open the Spotify Clone in your browser. Use the play button to start playback an
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/spotify-clone.git
+   git clone https://github.com/rTalhaa/spotify-clone.git
 
