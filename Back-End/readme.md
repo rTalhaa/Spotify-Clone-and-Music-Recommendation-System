@@ -1,7 +1,4 @@
-# Music Recommender System
-
-## Overview
-This project focuses on building and evaluating a collaborative-filter based recommender system using a music dataset.
+# Recommendation System
 
 ## Dataset
 The project utilizes the [Million Song Dataset](http://millionsongdataset.com/) (MSD), compiled by Thierry Bertin-Mahieux, Daniel P.W. Ellis, Brian Whitman, and Paul Lamere. Detailed in their publication at the 12th International Society for Music Information Retrieval Conference (ISMIR 2011).
