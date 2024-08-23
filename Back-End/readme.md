@@ -31,7 +31,7 @@ Key hyper-parameters tuned for optimal performance on the validation set include
 Model accuracy was assessed on validation and test data by predicting the top 500 items for each user. The primary metric used was mean Average Precision (mAP) (refer to PySpark's [ranking metrics](https://spark.apache.org/docs/2.4.7/mllib-evaluation-metrics.html#ranking-systems) for more details).
 
 ### Infrastructure
-Model training was performed on [The Peel Big Data cluster](https://sites.google.com/a/nyu.edu/nyu-hpc/documentation/peel) at NYU High Performance Computing. The cluster features 18 data nodes running Cloudera CDH version 6.3.4, including Hadoop 3.0.0 and Spark 2.4.0.
+Model training was performed on [The Peel Big Data cluster](https://sites.google.com/a/nyu.edu/nyu-hpc/documentation/peel) at High Performance Computing. The cluster features 18 data nodes running Cloudera CDH version 6.3.4, including Hadoop 3.0.0 and Spark 2.4.0.
 
 ## Popularity-based Model as Baseline
 Additionally, a popularity-based model was implemented as a baseline for comparison against the collaborative-filter based model. For more details, see this [Springer link](https://link.springer.com/chapter/10.1007/978-1-4899-7637-6_3), section 3.2, or the `bias` implementation provided by [lenskit](https://lkpy.readthedocs.io/en/stable/bias.html).
